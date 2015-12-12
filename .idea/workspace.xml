@@ -23,13 +23,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10344828">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2013#2014#0" expanded="true" />
+                <element signature="e#2047#2048#0" expanded="true" />
+                <element signature="method#setMap#0;class#Parser#0" expanded="false" />
+                <element signature="method#toString#0;class#Parser#0" expanded="false" />
+                <element signature="e#3697#3698#0" expanded="true" />
+                <element signature="e#3754#3755#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileChooserImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FileChooserImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.56551725">
+              <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1946#1947#0" expanded="true" />
+                <element signature="e#1980#1981#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,7 +84,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/Note.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/FileChooser.java" />
         <option value="$PROJECT_DIR$/src/Parser.java" />
+        <option value="$PROJECT_DIR$/src/FileChooserImpl.java" />
       </list>
     </option>
   </component>
@@ -97,7 +119,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -108,7 +130,45 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="midi-reader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="midi-reader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="midi-reader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="midi-reader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="midi-reader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
@@ -116,11 +176,27 @@
     <property name="FullScreen" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Parser">
+  <component name="RunManager" selected="Application.FileChooserImpl">
     <configuration default="false" name="Parser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Parser" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="midi-reader" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FileChooserImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="FileChooserImpl" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -395,12 +471,14 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Parser" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FileChooserImpl" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Parser" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.FileChooserImpl" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Parser" />
       </list>
     </recent_temporary>
   </component>
@@ -418,12 +496,12 @@
       <workItem from="1449812243118" duration="144000" />
       <workItem from="1449816803661" duration="75000" />
       <workItem from="1449817393218" duration="33000" />
-      <workItem from="1449817679074" duration="1693000" />
+      <workItem from="1449817679074" duration="8203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17687000" />
+    <option name="totallyTimeSpent" value="24197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -445,7 +523,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16640624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32669324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -499,6 +577,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="method#setMap#0;class#Parser#0" expanded="false" />
+            <element signature="method#toString#0;class#Parser#0" expanded="false" />
+            <element signature="e#3697#3698#0" expanded="true" />
+            <element signature="e#3754#3755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -517,6 +601,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="method#setMap#0;class#Parser#0" expanded="false" />
+            <element signature="method#toString#0;class#Parser#0" expanded="false" />
+            <element signature="e#3697#3698#0" expanded="true" />
+            <element signature="e#3754#3755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -535,6 +625,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="method#setMap#0;class#Parser#0" expanded="false" />
+            <element signature="method#toString#0;class#Parser#0" expanded="false" />
+            <element signature="e#3697#3698#0" expanded="true" />
+            <element signature="e#3754#3755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -553,6 +649,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="method#setMap#0;class#Parser#0" expanded="false" />
+            <element signature="method#toString#0;class#Parser#0" expanded="false" />
+            <element signature="e#3697#3698#0" expanded="true" />
+            <element signature="e#3754#3755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -571,6 +673,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="method#setMap#0;class#Parser#0" expanded="false" />
+            <element signature="method#toString#0;class#Parser#0" expanded="false" />
+            <element signature="e#3697#3698#0" expanded="true" />
+            <element signature="e#3754#3755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -589,6 +697,12 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="method#setMap#0;class#Parser#0" expanded="false" />
+            <element signature="method#toString#0;class#Parser#0" expanded="false" />
+            <element signature="e#3697#3698#0" expanded="true" />
+            <element signature="e#3754#3755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -611,10 +725,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10344828">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+            <element signature="method#setMap#0;class#Parser#0" expanded="false" />
+            <element signature="method#toString#0;class#Parser#0" expanded="false" />
+            <element signature="e#3697#3698#0" expanded="true" />
+            <element signature="e#3754#3755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileChooserImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56551725">
+          <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1946#1947#0" expanded="true" />
+            <element signature="e#1980#1981#0" expanded="true" />
           </folding>
         </state>
       </provider>
